@@ -12,7 +12,9 @@ function onSubmit(evt) {
         email: email.value,
         password: password.value,
         }
+        evt.currentTarget.reset();
+        console.dir(data)
     }
-    evt.currentTarget.reset();
+    
 }
 
